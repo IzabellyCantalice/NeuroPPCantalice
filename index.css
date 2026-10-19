@@ -1,0 +1,99 @@
+/* Configurações básicas da página toda */
+body {
+    background-color: #FDFD96; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Deixa as seções (as partes do site) organizadas no meio da tela */
+section, header, footer {
+    max-width: 600px;
+    margin: 20px auto; /* Centraliza o bloco na tela */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas, acho mais bonito */
+}
+
+/* O Cabeçalho (Azul com Amarelo que é a palheta de cores dela) */
+header {
+    background-color: #004d61; /* Azul Petróleo */
+    color: white;
+    text-align: center;
+}
+/*Titulo do cabeçalho (h1) */
+header h1 {
+    color: #ffb74d;
+    margin-bottom: 0;
+}
+
+/* Imagem dela */
+img {
+    border-radius: 8px;
+    border: 4px solid #004d61;
+}
+
+/* Os títulos (h2) */
+h2 {
+    color: #004d61;
+    border-bottom: 2px solid #ffb74d;
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #004d61;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb74d; /* pra mudar de cor quando passa o mouse */
+    text-decoration: underline;
+}
+
+/* Formulário */
+input, textarea, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea, 
+select {
+    width: 100%;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    width: auto; 
+    margin-right: 5px; /* Dá um espacinho antes do texto */
+}
+/* Botão de Enviar */
+button {
+    background-color: #ffb74d; /* Amarelo */
+    color: #004d61; /* Texto Azul */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffa726; /* Amarelo mais escuro no hover */
+}
+
+/* Rodapé */
+footer {
+    background-color: #004d61; /* Azul Petróleo */
+    color: white;
+    text-align: center;
+}

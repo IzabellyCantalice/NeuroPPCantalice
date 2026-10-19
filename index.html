@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>NeuroPPCantalice</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>Leida Cantalice</h1>
+        <p>Neuropsicopedagoga</p>
+    </header>
+
+    <!-- IMAGEM E TEXTO PRINCIPAL -->
+    <section>
+        <!-- IMAGEM: Substitua o link abaixo pela foto real -->
+        <img src="image/image.png"alt="Foto da Leida" width="300">
+        <p><strong>Intervenções mais rápidas e eficazes.</strong></p>
+        <p>Especialista em Transtorno do Espectro Autista com ênfase em Análise do Comportamento Aplicada - ABA.</p>
+        
+        <!-- LINK -->
+        <p>
+            <a href="https://wa.me/5592988182219" target="_blank">Clique aqui para falar no WhatsApp</a>
+        </p>
+    </section>
+
+    <!-- LISTA ORDENADA (Numerada) -->
+    <section>
+        <h2>Como funciona o atendimento:</h2>
+        <!-- <ol> cria a lista numerada, <li> são os itens -->
+        <ol>
+            <li>Avaliação individualizada da criança.</li>
+            <li>Relatório detalhado com recomendações para família e escola.</li>
+            <li>Sugestões de atividades personalizadas (com material digital).</li>
+            <li>Pacotes de serviço flexíveis.</li>
+        </ol>
+    </section>
+
+    <!-- COORDENADAS (Mapa) -->
+    <section>
+        <h2>Onde estamos localizados:</h2>
+        <!-- Um link do Google Maps para simular porque se nao eu estaria mostrando a localizacao da minha casa-->
+        <p>Clique no link abaixo para ver a localização:</p>
+        <a href="https://www.google.com/maps/place/Manaus,+AM" target="_blank">Ver coordenadas no Google Maps</a>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section>
+        <h2>Entre em Contato</h2>
+        <form action="#" method="POST">
+            <p>
+                <label for="nome">Seu nome:</label><br>
+                <input type="text" id="nome" name="nome" required>
+            </p>         
+            <!-- Idade da criança -->
+            <p>
+                <label for="idade">Idade da criança:</label>
+                <input type="number" id="idade" name="idade" min="4" max="18" style="width: 80px;">
+            </p>
+            <p>
+                <label for="email">Seu e-mail:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="assunto">Qual o motivo do contato?</label><br>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione uma opção...</option>
+                    <option value="avaliacao">Agendar Avaliação</option>
+                    <option value="duvida">Dúvidas sobre o atendimento</option>
+                    <option value="parceria">Parcerias com escolas</option>
+                    <option value="outro">Outros</option>
+                </select>
+            </p>
+             <!-- BOTÕES (Escolher apenas um) -->
+            <p>
+                <strong>Sexo da criança:</strong><br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+
+                <input type="radio" id="feminino" name="sexo" value="feminino">
+                <label for="feminino">Feminino</label>
+            </p>
+
+            <!-- CHECKBOX (Escolher várias opções) -->
+            <p>
+                <strong>Quais desafios a criança enfrenta? (Pode marcar mais de um)</strong><br>
+                <input type="checkbox" id="leitura" name="desafios" value="leitura">
+                <label for="leitura">Dificuldade na leitura</label><br>
+
+                <input type="checkbox" id="escrita" name="desafios" value="escrita">
+                <label for="escrita">Dificuldade na escrita</label><br>
+
+                <input type="checkbox" id="foco" name="desafios" value="foco">
+                <label for="foco">Falta de foco/atenção</label><br>
+
+                <input type="checkbox" id="social" name="desafios" value="social">
+                <label for="social">Dificuldade de interação social</label>
+            </p>
+            
+            <p>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="30"></textarea>
+            </p>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Contato: (92) 98818-2219</p>
+        <p>&copy; 2026 Leida Cantalice</p>
+    </footer>
+
+</body>
+</html>
